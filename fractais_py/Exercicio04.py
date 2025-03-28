@@ -6,12 +6,10 @@ import time
 import multiprocessing
 from functools import wraps
 
-# Configurações iniciais
 import matplotli
 matplotlib.use('Agg')  
 
-# Defina seu nome de usuário Windows aqui
-USERNAME = "pedro"  # Altere se necessário
+USERNAME = "pedro"  
 DESKTOP_PATH = os.path.join("C:\\Users", USERNAME, "Downloads", "fractais_py")
 os.makedirs(DESKTOP_PATH, exist_ok=True)
 
